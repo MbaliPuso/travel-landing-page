@@ -192,8 +192,18 @@ body {
     opacity: 0.8;
   }
 
+  textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+  }
+
   .get-in-touch-section {
-    padding: 50px 0;
     text-align: center;
     height: 100vh;
     display: flex;
@@ -205,7 +215,6 @@ body {
   #form-container {
     max-width: 500px;
     width: 90%;
-    margin-top: 0;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 255);
@@ -235,6 +244,10 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+  }
+
+  @media (max-width: 600px) {
+
   }
   
   @media (max-width: 960px) {
